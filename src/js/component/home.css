@@ -20,16 +20,16 @@
 .glow{
     box-shadow: 0px 0px 25px hwb(0 72% 25%);
 }
-.red{
+.red:hover{
     background-color: red;
     border-radius: 25px;
 }
-.orange{
+.orange:hover{
     background-color: rgb(219, 107, 14);
     border-radius: 25px;
 
 }
-.green{
+.green:hover{
     background-color: rgb(41, 192, 99);
     border-radius: 25px;
 }
