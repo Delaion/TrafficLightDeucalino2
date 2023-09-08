@@ -8,6 +8,10 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	const[glowLight,setGlowLight]=useState("red")
 	return (
+	
+		<div class="card text-bg-dark">
+		<img src="https://www.herraiz.com/5701-home_default/senal-vial-mopu-60x60cm-paso-de-cebra.jpg" class="card-img" alt="..."/>
+		<div class="card-img-overlay">
 		<div className="text-center">
 			<h1 className="text-center mt-5">Traffic Light </h1>
 			<div className="wrapper">
@@ -25,6 +29,8 @@ const Home = () => {
 		
 			
 		</div>
+		</div>
+	  </div>
 	);
 };
 
